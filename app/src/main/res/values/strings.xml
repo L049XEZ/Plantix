@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Plantix</string>
+    <string name="sustainability_tips">
+    1. Use Technology Smartly\nUse GPS and sensors to know exactly where and how much water, fertilizer, and pesticide you need, so nothing gets wasted.\n\n
+    2. Keep Pests in Check Naturally\nUse natural predators, rotate crops, and grow different types of plants to keep pests away without relying too much on chemicals.\n\n
+    3. Be Gentle with the Soil\nAvoid plowing too much (or at all) to keep the soil healthy, prevent erosion, and save water.\n\n
+    4. Go Organic\nSkip the synthetic stuff and use natural compost and methods to keep your soil rich and productive.\n\n
+    5. Manage Water Wisely\nUse drip irrigation to water plants directly at their roots, saving a lot of water.\n\n
+    6. Mix It Up with Trees\nPlant trees and crops together to improve soil, help water retention, and support biodiversity.\n\n
+    7. Take Care of Your Soil\nTest your soil so you can give it exactly what it needs without overdoing it.\n\n
+    8. Use Clean Energy\nPower your farm with solar, wind, or other renewable energy sources to cut down on pollution.\n\n
+    9. Grow a Variety\nPlant different kinds of crops to make your farm more resilient and improve soil health.\n\n
+    10. Learn from Data\nUse data from your farm to make smart decisions that save resources and boost yields.
+        </string>
+
+
+</resources>

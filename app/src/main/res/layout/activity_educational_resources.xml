@@ -1,0 +1,51 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".EducationalResourcesActivity">
+
+    <TextView
+        android:id="@+id/tvEducationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/titleText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvGrowHowDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="The GrowHow initiative by East-West Seed focuses on enhancing the education of smallholder farmers through high-quality farming guides. It provides a wide range of learning materials aimed at improving agricultural practices, crop management, and productivity sustainably. The platform is dedicated to sharing knowledge and skills, promoting better yield outcomes and the adoption of efficient, sustainable farming methods. "
+        android:textColor="@color/contentText"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvEducationTitle" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/videoPlaceholder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvGrowHowDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

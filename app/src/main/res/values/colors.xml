@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="subtitleBlue">#2196F3</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="backgroundTextView">#FFEB3B</color>
+    <color name="backgroundImageView">#4CAF50</color>
+    <color name="backgroundSearchView">#87CEEB</color>
+    <!-- Base colors -->
+    <color name="background">#FFFFFF</color> <!-- White background -->
+    <color name="titleText">#1E88E5</color> <!-- Blue for titles -->
+    <color name="contentText">#757575</color> <!-- Dark gray for content text -->
+    <color name="videoPlaceholder">#E0E0E0</color> <!-- Light gray for video placeholder -->
+
+    <!-- Additional colors -->
+    <color name="primary">#1E88E5</color> <!-- Primary blue color -->
+    <color name="primaryDark">#1565C0</color> <!-- Darker shade of blue -->
+
+
+
+</resources>

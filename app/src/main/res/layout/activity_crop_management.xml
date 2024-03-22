@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".CropManagementActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewCropManagement"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Crop Management Information"
+            android:textColor="#2D8A31"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Seedbed Preparation Title -->
+        <TextView
+            android:id="@+id/tvTitleSeedbedPreparation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:text="Seedbed Preparation"
+            android:textSize="16sp"
+            android:textColor="@color/subtitleBlue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewCropManagement" />
+
+        <!-- Seedbed Preparation Description -->
+        <TextView
+            android:id="@+id/textViewSeedbedPreparationDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Create a firm, moist, weed-free seedbed for improved seed contact and germination. Use conventional tillage for soil turnover or reduced/no-tillage to increase soil carbon and health."
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleSeedbedPreparation" />
+
+        <!-- Planting Title -->
+        <TextView
+            android:id="@+id/tvTitlePlanting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:text="Planting"
+            android:textSize="16sp"
+            android:textColor="@color/subtitleBlue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewSeedbedPreparationDescription" />
+
+        <!-- Planting Description -->
+        <TextView
+            android:id="@+id/textViewPlantingDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Sow seeds 1.5 to 2.0 inches deep, considering moisture and temperature for germination."
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTitlePlanting" />
+
+        <!-- Fertilization Title -->
+        <TextView
+            android:id="@+id/tvTitleFertilization"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:text="Fertilization"
+            android:textSize="16sp"
+            android:textColor="@color/subtitleBlue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewPlantingDescription" />
+
+        <!-- Fertilization Description -->
+        <TextView
+            android:id="@+id/textViewFertilizationDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Test soil before fertilizing. Choose fertilizer type and application method based on soil analysis, crop needs, and environmental conditions."
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleFertilization" />
+        <!-- Pest Management Title -->
+        <TextView
+            android:id="@+id/tvTitlePestManagement"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Pest Management"
+            android:textSize="16sp"
+            android:textColor="@color/subtitleBlue"
+            app:layout_constraintTop_toBottomOf="@id/textViewFertilizationDescription"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Pest Management Description -->
+        <TextView
+            android:id="@+id/textViewPestManagementDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Employ integrated pest management (IPM) to use pesticides effectively and prevent pest resistance. Combine mechanical, biological, and chemical methods."
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvTitlePestManagement"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Irrigation Title -->
+        <TextView
+            android:id="@+id/tvTitleIrrigation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Irrigation"
+            android:textSize="16sp"
+            android:textColor="@color/subtitleBlue"
+            app:layout_constraintTop_toBottomOf="@id/textViewPestManagementDescription"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Irrigation Description -->
+        <TextView
+            android:id="@+id/textViewIrrigationDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Use efficient irrigation systems and timing to conserve water and prevent nutrient leaching."
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleIrrigation"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Harvesting Title -->
+        <TextView
+            android:id="@+id/tvTitleHarvesting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Harvesting"
+            android:textSize="16sp"
+            android:textColor="@color/subtitleBlue"
+            app:layout_constraintTop_toBottomOf="@id/textViewIrrigationDescription"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Harvesting Description -->
+        <TextView
+            android:id="@+id/textViewHarvestingDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Harvest crops at the right maturity stage to minimize losses and maintain quality."
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleHarvesting"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Post-Harvest Storage Title -->
+        <TextView
+            android:id="@+id/tvTitlePostHarvestStorage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Post-Harvest Storage"
+            android:textSize="16sp"
+            android:textColor="@color/subtitleBlue"
+            app:layout_constraintTop_toBottomOf="@id/textViewHarvestingDescription"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Post-Harvest Storage Description -->
+        <TextView
+            android:id="@+id/textViewPostHarvestStorageDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Store crops at recommended moisture levels to preserve quality and prevent pests."
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvTitlePostHarvestStorage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"/> <!-- Added a bottom margin for spacing at the end of the content -->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
